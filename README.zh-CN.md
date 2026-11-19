@@ -440,6 +440,8 @@ GitHub Actions 可以在每次 push 代码到 GitHub 的时候自动运行验证
 
 [sv-core](https://github.com/E1PsyCongroo/sv-core-fv) 是使用该项目验证 `Verilog` 设计的例子，我们通过 `firtool` 将参考模型转换为 `SystemVerilog` 设计, 为 [nerv](https://github.com/YosysHQ/nerv) 和 [picov32](https://github.com/YosysHQ/picorv32) 提供了 `wrapper` 以获取验证所需的信号，最终使用 `SymbiYosys` 工具使用 `yosys-smtbmc` 引擎调用 `boolector` 求解器进行验证。
 
+Ibex 的 RVFI 接入、可复现回归和覆盖范围见 [Ibex 技术报告](sv-core/ibex/TECHNICAL_REPORT.zh-CN.md)。
+
 ## 出版物
 
 如果我们的工作对您有帮助，请引用：
