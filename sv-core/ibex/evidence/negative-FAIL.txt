@@ -1,0 +1,6 @@
+Elapsed clock time [H:MM:SS (secs)]: 0:00:20 (20)
+Elapsed process time [H:MM:SS (secs)]: 0:00:09 (9)
+engine_0 (smtbmc boolector) returned FAIL
+counterexample trace: engine_0/trace.vcd
+counterexample trace: engine_0/trace.yw
+  failed assertion ibex_formal.rf_write_matches_rvfi at sources/ibex_formal.sv:170.7-173.9 step 6

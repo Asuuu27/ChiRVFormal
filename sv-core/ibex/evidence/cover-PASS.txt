@@ -1,0 +1,24 @@
+Elapsed clock time [H:MM:SS (secs)]: 0:00:45 (45)
+Elapsed process time [H:MM:SS (secs)]: 0:00:34 (34)
+engine_0 (smtbmc boolector) returned pass
+cover trace: engine_0/trace0.vcd
+cover trace: engine_0/trace0.yw
+  reached cover statement ibex_formal.first_retirement at sources/ibex_formal.sv:195.7-195.95 step 6
+cover trace: engine_0/trace1.vcd
+cover trace: engine_0/trace1.yw
+  reached cover statement ibex_formal.raw_retirement at sources/ibex_formal.sv:196.7-196.69 step 7
+cover trace: engine_0/trace2.vcd
+cover trace: engine_0/trace2.yw
+  reached cover statement ibex_formal.five_plus_three at sources/ibex_formal.sv:187.7-194.9 step 7
+cover trace: engine_0/trace3.vcd
+cover trace: engine_0/trace3.yw
+  reached cover statement ibex_formal.store_load_retirement at sources/ibex_formal.sv:197.7-197.77 step 11
+cover trace: engine_0/trace4.vcd
+cover trace: engine_0/trace4.yw
+  reached cover statement ibex_formal.branch_fallthrough at sources/ibex_formal.sv:199.7-199.102 step 12
+cover trace: engine_0/trace5.vcd
+cover trace: engine_0/trace5.yw
+  reached cover statement ibex_formal.branch_taken at sources/ibex_formal.sv:198.7-198.96 step 13
+cover trace: engine_0/trace6.vcd
+cover trace: engine_0/trace6.yw
+  reached cover statement ibex_formal.end_to_end at sources/ibex_formal.sv:200.7-200.91 step 16

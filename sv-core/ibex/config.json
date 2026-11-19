@@ -1,0 +1,6 @@
+{
+  "xlen": 32,
+  "extensions": ["I"],
+  "formal": ["CheckNPC", "CheckMem"],
+  "regDelay": false
+}
